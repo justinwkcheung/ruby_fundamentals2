@@ -4,7 +4,7 @@ puts temperature
 
 def celsius_conversion(a)
   puts (a -32) * 5 / 9
-  return (a - 32) * 5 / 9
+  return ((a - 32) * 5.0 / 9).to_f
 
 end
 
