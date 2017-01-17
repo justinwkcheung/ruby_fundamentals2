@@ -28,3 +28,10 @@ increased_size(students)
 students.delete(:cohort2)
 
 cohort_name_number(students)
+
+count = 0
+students.each do |x, y|
+  count = count + y
+end
+
+puts count
